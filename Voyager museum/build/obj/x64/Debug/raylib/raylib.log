@@ -1,0 +1,18 @@
+﻿  raudio.c
+E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\raylib-master\src\external\jar_xm.h(242,1): warning C4005: 'DEBUG': macro redefinition
+E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\raylib-master\src\external\jar_xm.h(242,1): message : 'DEBUG' previously declared on the command line
+  rcore.c
+E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\raylib-master\src\external\rprand.h(205,27): warning C4018: '<': signed/unsigned mismatch
+E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\raylib-master\src\rcore.c(1409,46): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\raylib-master\src\rcore.c(1409,64): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+  rglfw.c
+  rmodels.c
+E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\raylib-master\src\rmodels.c(5287,29): warning C4244: '=': conversion from 'unsigned short' to 'unsigned char', possible loss of data
+E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\raylib-master\src\rmodels.c(5299,29): warning C4244: '=': conversion from 'float' to 'unsigned char', possible loss of data
+  rshapes.c
+  rtext.c
+  rtextures.c
+E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\raylib-master\src\rtextures.c(2194,34): warning C4018: '>=': signed/unsigned mismatch
+  utils.c
+  Generating Code...
+  raylib.vcxproj -> E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\bin\Debug\raylib.lib
