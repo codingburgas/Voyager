@@ -1,3 +1,7 @@
-﻿LINK : warning LNK4001: no object files specified; libraries used
-LINK : error LNK2001: unresolved external symbol mainCRTStartup
-..\bin\Debug\Voyager.exe : fatal error LNK1120: 1 unresolved externals
+﻿  main.cpp
+  manager.cpp
+E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\Voyager museum\build\manager.cpp(18,1): warning C4551: function call missing argument list
+  Generating Code...
+  Voyager.vcxproj -> E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\Voyager museum\bin\Debug\Voyager.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
