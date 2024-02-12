@@ -3,7 +3,7 @@
 
 int ManageWindow() {
 
-InitWindow(screenWitdth, screenHeight, "Space Museum");
+InitWindow(screenWidth, screenHeight, "Space Museum");
 SetTargetFPS(60);
 
 
