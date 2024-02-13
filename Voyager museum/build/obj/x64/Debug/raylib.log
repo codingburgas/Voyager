@@ -1,0 +1,18 @@
+﻿  raudio.c
+  rcore.c
+  rglfw.c
+C:\Users\Kaloyan\source\repos\Voyager\Voyager museum\raylib-master\src\external\jar_xm.h(242,1): warning C4005: 'DEBUG': macro redefinition
+  (compiling source file '../raylib-master/src/raudio.c')
+  C:\Users\Kaloyan\source\repos\Voyager\Voyager museum\raylib-master\src\external\jar_xm.h(242,1):
+  'DEBUG' previously declared on the command line
+  
+C:\Users\Kaloyan\source\repos\Voyager\Voyager museum\raylib-master\src\external\rprand.h(205,27): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '../raylib-master/src/rcore.c')
+  
+  rmodels.c
+  rshapes.c
+  rtext.c
+  rtextures.c
+  utils.c
+  Generating Code...
+  raylib.vcxproj -> C:\Users\Kaloyan\source\repos\Voyager\Voyager museum\bin\Debug\raylib.lib

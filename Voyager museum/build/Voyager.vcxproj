@@ -272,9 +272,12 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="manager.cpp" />
+    <ClCompile Include="titlescreen.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="buttons.h" />
     <ClInclude Include="manager.h" />
+    <ClInclude Include="titlescreen.h" />
     <ClInclude Include="window.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,7 +1,20 @@
-﻿  main.cpp
-  manager.cpp
-E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\Voyager museum\build\manager.cpp(18,1): warning C4551: function call missing argument list
-  Generating Code...
-  Voyager.vcxproj -> E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\Voyager museum\bin\Debug\Voyager.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
+﻿  titlescreen.cpp
+C:\Users\Kaloyan\source\repos\Voyager\Voyager museum\build\buttons.h(7,81): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'titlescreen.cpp')
+  
+C:\Users\Kaloyan\source\repos\Voyager\Voyager museum\build\buttons.h(7,62): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'titlescreen.cpp')
+  
+C:\Users\Kaloyan\source\repos\Voyager\Voyager museum\build\buttons.h(7,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'titlescreen.cpp')
+  
+C:\Users\Kaloyan\source\repos\Voyager\Voyager museum\build\buttons.h(7,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'titlescreen.cpp')
+  
+C:\Users\Kaloyan\source\repos\Voyager\Voyager museum\build\buttons.h(8,54): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'titlescreen.cpp')
+  
+C:\Users\Kaloyan\source\repos\Voyager\Voyager museum\build\buttons.h(8,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'titlescreen.cpp')
+  
+  Voyager.vcxproj -> C:\Users\Kaloyan\source\repos\Voyager\Voyager museum\bin\Debug\Voyager.exe

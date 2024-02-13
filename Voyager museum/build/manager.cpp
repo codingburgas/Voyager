@@ -1,20 +1,25 @@
 #include "manager.h"
 #include "window.h"
+#include "titlescreen.h"
 
 int ManageWindow() {
 
-InitWindow(screenWidth, screenHeight, "Space Museum");
-SetTargetFPS(60);
+    InitWindow(screenWidth, screenHeight, "Space Museum");
+    SetTargetFPS(144);
 
+    if (ManageTitleScreen() == 0) {
+        CloseWindow();
+        return 0;
+    }
 
-while (WindowShouldClose() == false) {
+    while (!WindowShouldClose()) {
 
-	BeginDrawing();
-	
-	EndDrawing();
+        BeginDrawing();
 
-}
+        EndDrawing();
 
-CloseWindow;
-return 0;
+    }
+    
+    CloseWindow();
+    return 0;
 }
