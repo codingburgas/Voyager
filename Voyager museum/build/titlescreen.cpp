@@ -4,7 +4,7 @@
 int ManageTitleScreen() {
     while (!WindowShouldClose()) {
         BeginDrawing();
-        initStart();
+
         ClearBackground(PINK);
         DrawText("Voyager", screenWidth / 2 - MeasureText("Voyager", 40) / 2, screenHeight / 2 - 40, 40, DARKGRAY);
         EndDrawing();

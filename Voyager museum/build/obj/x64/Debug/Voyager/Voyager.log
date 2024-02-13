@@ -1,20 +1,4 @@
-﻿  titlescreen.cpp
-C:\Users\Kaloyan\source\repos\Voyager\Voyager museum\build\buttons.h(7,81): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  (compiling source file 'titlescreen.cpp')
-  
-C:\Users\Kaloyan\source\repos\Voyager\Voyager museum\build\buttons.h(7,62): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  (compiling source file 'titlescreen.cpp')
-  
-C:\Users\Kaloyan\source\repos\Voyager\Voyager museum\build\buttons.h(7,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  (compiling source file 'titlescreen.cpp')
-  
-C:\Users\Kaloyan\source\repos\Voyager\Voyager museum\build\buttons.h(7,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  (compiling source file 'titlescreen.cpp')
-  
-C:\Users\Kaloyan\source\repos\Voyager\Voyager museum\build\buttons.h(8,54): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  (compiling source file 'titlescreen.cpp')
-  
-C:\Users\Kaloyan\source\repos\Voyager\Voyager museum\build\buttons.h(8,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  (compiling source file 'titlescreen.cpp')
-  
+﻿  manager.cpp
+  titlescreen.cpp
+  Generating Code...
   Voyager.vcxproj -> C:\Users\Kaloyan\source\repos\Voyager\Voyager museum\bin\Debug\Voyager.exe
