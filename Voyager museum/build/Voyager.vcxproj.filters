@@ -15,7 +15,7 @@
     <ClCompile Include="manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="titlescreen.cpp">
+    <ClCompile Include="menuscreen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="buttons.cpp">
@@ -29,7 +29,7 @@
     <ClInclude Include="window.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="titlescreen.h">
+    <ClInclude Include="menuscreen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="buttons.h">

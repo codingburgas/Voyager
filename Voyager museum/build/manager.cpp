@@ -1,19 +1,16 @@
 #include "window.h"
-#include "titlescreen.h"
+#include "menuscreen.h"
 
 int ManageWindow() {
 
     InitWindow(screenWidth, screenHeight, screenTitle);
     SetTargetFPS(60);
 
-    if (ManageTitleScreen() == 0) {
-        CloseWindow();
-        return 0;
-    }
-
     while (!WindowShouldClose()) {
 
         BeginDrawing();
+
+        ManageMenuScreen();
 
         EndDrawing();
 
