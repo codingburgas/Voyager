@@ -6,9 +6,9 @@ Button* Button::instance = nullptr;
 void Button::drawButton(Rectangle rect)
 {
 
+	DrawRectangleRec(rect, menuButtonColor);
+
 }
 
-bool Button::isClicked(Rectangle rect)
-{
-	return false;
-}
+//bool Button::isClicked(Rectangle rect)
+

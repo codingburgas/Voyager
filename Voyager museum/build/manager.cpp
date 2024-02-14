@@ -12,6 +12,7 @@ int ManageWindow() {
 
         ManageMenuScreen();
 
+
         EndDrawing();
 
     }
