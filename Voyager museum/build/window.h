@@ -8,7 +8,7 @@
 #define screenTitle "Space Craft"
 
 //Define main menu buttons
-
+#define menuTextColor BLACK
 #define menuButtonColor WHITE
 #define menuButtonLength 200
 #define menuButtonHeight 100
