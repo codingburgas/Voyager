@@ -13,5 +13,16 @@ void Button::drawButton(Rectangle rect)
 	DrawText("Exit", screenWidth / 2 - MeasureText("Voyager", 16) / 2, 575, 30, menuTextColor);
 }
 
-//bool Button::isClicked(Rectangle rect)
+bool Button::isClicked(Rectangle rect) {
+
+	if (IsMouseButtonPressed(MOUSE_BUTTON_LEFT)) {
+		if (CheckCollisionPointRec(GetMousePosition(), rect))
+		{
+
+			return true;
+
+		}
+	}
+	return false;
+}
 

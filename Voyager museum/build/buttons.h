@@ -16,7 +16,7 @@ class Button
 
 		void drawButton(Rectangle rect);
 
-		//bool isClicked(Rectangle rect);	
+		bool isClicked(Rectangle rect);	
 
 		Rectangle menuButtons[3] = {
 			{screenWidth/2-menuButtonLength/2, screenHeight/4, menuButtonLength, menuButtonHeight},
