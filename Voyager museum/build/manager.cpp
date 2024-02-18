@@ -1,12 +1,14 @@
 #include "window.h"
 #include "menuscreen.h"
 
-int ManageWindow() {
+int ManageWindow() 
+{
 
     InitWindow(screenWidth, screenHeight, screenTitle);
     SetTargetFPS(60);
 
-    while (!WindowShouldClose()) {
+    while (!WindowShouldClose())
+    {
 
         BeginDrawing();
 
