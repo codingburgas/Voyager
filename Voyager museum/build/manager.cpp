@@ -1,5 +1,7 @@
 #include "window.h"
 #include "menuscreen.h"
+#include "manager.h"
+
 
 int ManageWindow() 
 {
