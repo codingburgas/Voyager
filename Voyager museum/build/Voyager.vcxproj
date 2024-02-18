@@ -273,6 +273,7 @@
     <ClCompile Include="buttons.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="manager.cpp" />
+    <ClCompile Include="menubuttons.cpp" />
     <ClCompile Include="menuscreen.cpp" />
   </ItemGroup>
   <ItemGroup>

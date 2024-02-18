@@ -14,7 +14,6 @@ int ManageWindow()
 
         ManageMenuScreen();
 
-
         EndDrawing();
 
     }
