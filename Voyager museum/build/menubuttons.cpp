@@ -1,7 +1,7 @@
 #include "buttons.h"
 #include "manager.h"  
 
-Button button;  
+static Button button;  
 
 void  startButton()
 {

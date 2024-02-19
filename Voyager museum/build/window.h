@@ -12,3 +12,8 @@
 #define menuButtonColor WHITE
 #define menuButtonLength 200
 #define menuButtonHeight 100
+
+//Define control menu back button
+#define controlBackButtonColor WHITE
+#define menuButtonLength 200
+#define menuButtonHeight 100

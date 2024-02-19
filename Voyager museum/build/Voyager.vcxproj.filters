@@ -24,6 +24,9 @@
     <ClCompile Include="menubuttons.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="controlsmenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="manager.h">

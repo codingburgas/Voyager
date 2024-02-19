@@ -26,6 +26,11 @@ class Button
 		};
 		
 
+		Rectangle controllsBackButton[1] = {
+			{screenWidth / 2 - menuButtonLength / 2, screenHeight / 4, menuButtonLength, menuButtonHeight}
+
+		};
+
 	private:
 		static Button* instance;
 };
