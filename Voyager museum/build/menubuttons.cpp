@@ -1,5 +1,7 @@
 #include "buttons.h"
 #include "manager.h"  
+#include "controlsmenu.h"
+
 
 static Button button;  
 
@@ -23,6 +25,7 @@ void controlsButton()
 
 	if (Button::GetInstance()->isClicked(button.menuButtons[1]))
 	{
+		ManageControlMenu();
 
 	}
 

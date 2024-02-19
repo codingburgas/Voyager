@@ -1,24 +1,26 @@
 #include "buttons.h"
 #include "manager.h"
 
+
 static Button button;
 
-void ManageControlMenu() {
-
-	ClearBackground(BLACK);
-
-}
-
-void backButton() 
+void ManageControlMenu() 
 {
 	
-	Button::GetInstance()->drawButton(button.controllsBackButton[0]);
+	while (!WindowShouldClose()) {
 
-	if (Button::GetInstance()->isClicked(button.controllsBackButton[0]))
-	{
+		ClearBackground(BLACK);
+		BeginDrawing();
 
+		Button::GetInstance()->drawButton(button.controllsBackButton[0]);
 
+		EndDrawing();
 
 	}
+
+		
+
+
+	
 
 }

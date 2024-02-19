@@ -26,9 +26,8 @@ class Button
 		};
 		
 
-		Rectangle controllsBackButton[1] = {
-			{screenWidth / 2 - menuButtonLength / 2, screenHeight / 4, menuButtonLength, menuButtonHeight}
-
+		Rectangle controllsBackButton[3] = {
+			{screenWidth, screenHeight, controlBackButtonLength, controlBackButtonHeight}
 		};
 
 	private:

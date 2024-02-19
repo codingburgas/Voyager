@@ -2,6 +2,7 @@
 #include "window.h"
 #include "buttons.h"
 
+static Button button;
 
 void ManageMenuScreen()
 {

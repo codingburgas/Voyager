@@ -9,11 +9,10 @@
 
 //Define main menu buttons
 #define menuTextColor BLACK
-#define menuButtonColor WHITE
+#define ButtonColor WHITE
 #define menuButtonLength 200
 #define menuButtonHeight 100
 
 //Define control menu back button
-#define controlBackButtonColor WHITE
-#define menuButtonLength 200
-#define menuButtonHeight 100
+#define controlBackButtonLength 200
+#define controlBackButtonHeight 100
