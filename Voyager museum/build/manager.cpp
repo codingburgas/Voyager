@@ -3,23 +3,19 @@
 #include "manager.h"
 
 
-int ManageWindow() 
+void ManageWindow() 
 {
 
     InitWindow(screenWidth, screenHeight, screenTitle);
     SetTargetFPS(60);
 
-    while (!WindowShouldClose())
-    {
+    //renderer - loadva texturite
+ 
+}
 
-        BeginDrawing();
+void Update() 
+{
 
-        ManageMenuScreen();
+ManageMenuScreen();
 
-        EndDrawing();
-
-    }
-    
-    CloseWindow();
-    return 0;
 }

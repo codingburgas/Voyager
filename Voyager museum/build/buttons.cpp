@@ -8,9 +8,6 @@ void Button::drawButton(Rectangle rect)
 
 	DrawRectangleRec(rect, ButtonColor);
 
-	DrawText("Start", screenWidth / 2 - MeasureText("Voyager", 20) / 2, 310, 30, menuTextColor);
-	DrawText("Controls", screenWidth / 2 - MeasureText("Voyager", 30) / 2, 445, 30, menuTextColor);
-	DrawText("Exit", screenWidth / 2 - MeasureText("Voyager", 16) / 2, 575, 30, menuTextColor);
 }
 
 bool Button::isClicked(Rectangle rect)
