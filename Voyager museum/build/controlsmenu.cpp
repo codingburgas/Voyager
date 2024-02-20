@@ -4,23 +4,15 @@
 
 static Button button;
 
-void ManageControlMenu() 
+void ManageControlMenu()
 {
-	
+	ClearBackground(BLACK);
 	while (!WindowShouldClose()) {
 
-		ClearBackground(BLACK);
-		BeginDrawing();
+		Button::GetInstance()->drawButton(button.controllsBackButton);
+		DrawText("Back", 0, screenHeight, 30, menuTextColor);
 
-		Button::GetInstance()->drawButton(button.controllsBackButton[0]);
-
-		EndDrawing();
 
 	}
-
-		
-
-
-	
 
 }
