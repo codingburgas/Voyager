@@ -26,9 +26,7 @@ class Button
 		};
 		
 
-		Rectangle controllsBackButton[3] = {
-			{screenWidth, screenHeight, controlBackButtonLength, controlBackButtonHeight}
-		};
+		Rectangle controllsBackButton = {0, screenHeight, controlBackButtonLength, controlBackButtonHeight};
 
 	private:
 		static Button* instance;
