@@ -3,5 +3,4 @@
 #include "buttons.h"
 
 void ManageWindow();
-
 void Update();

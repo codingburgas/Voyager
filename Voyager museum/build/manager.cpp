@@ -1,7 +1,9 @@
 #include "window.h"
 #include "menuscreen.h"
 #include "manager.h"
+#include "scenemanager.h"
 
+static SceneID sceneid;
 
 void ManageWindow() 
 {
@@ -16,6 +18,9 @@ void ManageWindow()
 void Update() 
 {
 
-ManageMenuScreen();
+    BeginDrawing();
+    
+    sceneid.SceneManager();
 
+    EndDrawing();
 }
