@@ -2,4 +2,6 @@
 #include "raylib.h"
 #include "buttons.h"
 
-int ManageWindow();
+void ManageWindow();
+
+void Update();
