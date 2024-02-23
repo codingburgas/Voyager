@@ -16,7 +16,7 @@ void  startButton()
 	if (Button::GetInstance()->isClicked(button.menuButtons[0]))
 	{
 
-
+		sceneid.id = 2;
 	}
 
 }
@@ -30,7 +30,7 @@ void controlsButton()
 	if (Button::GetInstance()->isClicked(button.menuButtons[1]))
 	{
 		
-		sceneid.changeId + 1;
+		sceneid.id = 1;
 
 	}
 
@@ -44,7 +44,7 @@ void exitButton()
 	if (Button::GetInstance()->isClicked(button.menuButtons[2]))
 	{      
 
-		CloseWindow();
+		CloseWindow;
 	} 
 
 }

@@ -272,6 +272,7 @@
   <ItemGroup>
     <ClCompile Include="buttons.cpp" />
     <ClCompile Include="controlsmenu.cpp" />
+    <ClCompile Include="gamescreen.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="manager.cpp" />
     <ClCompile Include="menubuttons.cpp" />

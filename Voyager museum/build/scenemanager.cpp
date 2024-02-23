@@ -20,5 +20,9 @@ void SceneID::SceneManager()
 		ManageControlMenu();
 
 	}
+	else if (sceneid.id == 2)
+	{
+
+	}
 }
 
