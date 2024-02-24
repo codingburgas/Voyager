@@ -1,26 +1,24 @@
 #include "window.h"
-#include "menuscreen.h"
 #include "manager.h"
-#include "scenemanager.h"
 
-static SceneID sceneid;
 
-void ManageWindow() 
+
+void ManageWindow()
 {
 
     InitWindow(screenWidth, screenHeight, screenTitle);
     SetTargetFPS(60);
 
     //renderer - loadva texturite
- 
+
 }
 
-void Update() 
+void Update()
 {
 
     BeginDrawing();
-    
-    sceneid.SceneManager();
+
+    SceneManager();
 
     EndDrawing();
 }

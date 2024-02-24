@@ -13,7 +13,7 @@ void Player::DrawPlayer()
 
 	DrawRectangle(player.x, player.y, player.width, player.height, RED);
 
-	
+
 }
 
 void Player::PlayerControls()

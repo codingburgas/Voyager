@@ -1,6 +1,6 @@
 #include "manager.h"
 
-int main() 
+int main()
 {
 
 	ManageWindow();
