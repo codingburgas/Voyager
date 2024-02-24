@@ -1,5 +1,6 @@
 #include "manager.h"
 #include "scenemanager.h"
+#include "gamescreen.h"
 
 static Button button;
 
@@ -75,8 +76,9 @@ void SceneManager()
 
 	else if (start)
 	{
+		ClearBackground(BLACK);
 
-		//gamescreen
+		ManageGameScreen();
 
 	}
 

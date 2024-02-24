@@ -279,6 +279,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="buttons.h" />
+    <ClInclude Include="gamescreen.h" />
     <ClInclude Include="manager.h" />
     <ClInclude Include="player.h" />
     <ClInclude Include="scenemanager.h" />
