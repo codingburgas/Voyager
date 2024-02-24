@@ -1,10 +1,7 @@
 #include "buttons.h"
 #include "player.h"
-#include "scenemanager.h"
-#include "menuscreen.h"
 
 static Player player;
-static  SceneID sceneid;
 
 void ManageGameScreen() {
 
@@ -17,7 +14,6 @@ void ManageGameScreen() {
 		player.DrawPlayer();
 		player.PlayerControls();
 
-		backButton();
 	}
 
 }
