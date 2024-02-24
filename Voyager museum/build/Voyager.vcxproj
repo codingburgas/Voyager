@@ -272,16 +272,22 @@
   <ItemGroup>
     <ClCompile Include="buttons.cpp" />
     <ClCompile Include="controlsmenu.cpp" />
+    <ClCompile Include="gamescreen.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="manager.cpp" />
     <ClCompile Include="menubuttons.cpp" />
     <ClCompile Include="menuscreen.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="scenemanager.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="allscenes.h" />
     <ClInclude Include="buttons.h" />
     <ClInclude Include="controlsmenu.h" />
     <ClInclude Include="manager.h" />
     <ClInclude Include="menuscreen.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="scenemanager.h" />
     <ClInclude Include="window.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

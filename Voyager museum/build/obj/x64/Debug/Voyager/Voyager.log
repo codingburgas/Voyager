@@ -1,4 +1,7 @@
-﻿  controlsmenu.cpp
-  Voyager.vcxproj -> E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\Voyager museum\bin\Debug\Voyager.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
+﻿  gamescreen.cpp
+  manager.cpp
+  menubuttons.cpp
+C:\Users\YVTomov22\source\repos\Voyager\Voyager museum\build\menubuttons.cpp(47,3): warning C4551: function call missing argument list
+  scenemanager.cpp
+  Generating Code...
+  Voyager.vcxproj -> C:\Users\YVTomov22\source\repos\Voyager\Voyager museum\bin\Debug\Voyager.exe

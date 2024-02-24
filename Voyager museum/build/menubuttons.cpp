@@ -1,9 +1,11 @@
 #include "buttons.h"
 #include "manager.h"  
 #include "controlsmenu.h"
+#include "scenemanager.h"
 
 
 static Button button;  
+static  SceneID sceneid;
 
 void  startButton()
 {
@@ -14,7 +16,7 @@ void  startButton()
 	if (Button::GetInstance()->isClicked(button.menuButtons[0]))
 	{
 
-
+		sceneid.id = 2;
 	}
 
 }
@@ -27,7 +29,8 @@ void controlsButton()
 
 	if (Button::GetInstance()->isClicked(button.menuButtons[1]))
 	{
-		ManageControlMenu();
+		
+		sceneid.id = 1;
 
 	}
 
@@ -41,7 +44,22 @@ void exitButton()
 	if (Button::GetInstance()->isClicked(button.menuButtons[2]))
 	{      
 
-		CloseWindow();
+		CloseWindow;
 	} 
+
+}
+
+void backButton()
+{
+
+	Button::GetInstance()->drawButton(button.controllsBackButton);
+	DrawText("Back", 0, screenHeight, 30, menuTextColor);
+
+	if (Button::GetInstance()->isClicked(button.controllsBackButton))
+	{
+
+		sceneid.changeId = 0;
+
+	}
 
 }

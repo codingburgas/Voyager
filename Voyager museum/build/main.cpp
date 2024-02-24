@@ -6,7 +6,7 @@ int main()
 	ManageWindow();
 	while (!WindowShouldClose()) {
 
-		//update funcion
+		Update();
 
 	}
 	CloseWindow();
