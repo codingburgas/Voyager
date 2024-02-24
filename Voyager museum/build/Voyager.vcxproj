@@ -271,18 +271,28 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="buttons.cpp" />
-    <ClCompile Include="controlsmenu.cpp" />
+    <ClCompile Include="gamescreen.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="manager.cpp" />
-    <ClCompile Include="menubuttons.cpp" />
-    <ClCompile Include="menuscreen.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="scenemanager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="buttons.h" />
-    <ClInclude Include="controlsmenu.h" />
+    <ClInclude Include="gamescreen.h" />
     <ClInclude Include="manager.h" />
-    <ClInclude Include="menuscreen.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="scenemanager.h" />
     <ClInclude Include="window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\resources\charaStill.png" />
+    <Image Include="..\resources\charaWalkR1.png" />
+    <Image Include="..\resources\charaWalkR2.png" />
+    <Image Include="..\resources\exhibitSec2.png" />
+    <Image Include="..\resources\menuScreen.png" />
+    <Image Include="..\resources\museumLobby.png" />
+    <Image Include="..\resources\rocketRoom.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

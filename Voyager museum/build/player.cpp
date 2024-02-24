@@ -11,20 +11,20 @@ void Player::DrawPlayer()
 	player.y = screenHeight / 2 - player.height / 2;
 	player.speed = 8;
 
-	DrawRectangle(player.x, player.y, player.width, player.height, RED);
+	DrawCircle(player.x, player.y, 21, RED);
 
-	
+
 }
 
 void Player::PlayerControls()
 {
-	if (IsKeyDown(KEY_UP))
+	if (IsKeyDown(KEY_LEFT))
 	{
-		y = y - speed;
+		player.x = player.x - player.speed;
 	}
 
-	if (IsKeyDown(KEY_DOWN))
+	if (IsKeyDown(KEY_RIGHT))
 	{
-		y = y + speed;
+		player.x = player.x + player.speed;
 	}
 }

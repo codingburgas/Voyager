@@ -1,12 +1,12 @@
 #include "manager.h"
 
-int main() 
+int main()
 {
 
 	ManageWindow();
 	while (!WindowShouldClose()) {
 
-		//update funcion
+		Update();
 
 	}
 	CloseWindow();

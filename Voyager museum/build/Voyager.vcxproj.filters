@@ -7,6 +7,9 @@
     <Filter Include="Source Files">
       <UniqueIdentifier>{E9C7FDCE-D52A-8D73-7EB0-C5296AF258F6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{4c1798b9-33ad-42da-ba02-379daf62dba3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -15,16 +18,16 @@
     <ClCompile Include="manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="menuscreen.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="buttons.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="menubuttons.cpp">
+    <ClCompile Include="player.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="controlsmenu.cpp">
+    <ClCompile Include="scenemanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gamescreen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,14 +38,40 @@
     <ClInclude Include="window.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="menuscreen.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="buttons.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="controlsmenu.h">
+    <ClInclude Include="player.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="scenemanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gamescreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\resources\charaStill.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\resources\charaWalkR1.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\resources\charaWalkR2.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\resources\exhibitSec2.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\resources\menuScreen.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\resources\museumLobby.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\resources\rocketRoom.png">
+      <Filter>Resources</Filter>
+    </Image>
   </ItemGroup>
 </Project>
