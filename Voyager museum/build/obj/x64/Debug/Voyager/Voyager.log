@@ -1,14 +1,1 @@
-﻿  buttons.cpp
-  gamescreen.cpp
-  main.cpp
-  manager.cpp
-  player.cpp
-E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\Voyager museum\build\player.cpp(14,56): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\Voyager museum\build\player.cpp(14,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\Voyager museum\build\player.cpp(14,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\Voyager museum\build\player.cpp(14,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  scenemanager.cpp
-  Generating Code...
-  Voyager.vcxproj -> E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\Voyager museum\bin\Debug\Voyager.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
+﻿  Voyager.vcxproj -> C:\Users\kaloy\source\repos\dev\voyager\Voyager museum\bin\Debug\Voyager.exe

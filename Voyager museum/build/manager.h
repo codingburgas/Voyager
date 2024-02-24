@@ -6,3 +6,4 @@
 void ManageWindow();
 void Update();
 void SceneManager();
+void textureRenderer();
