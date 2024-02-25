@@ -5,9 +5,10 @@
 class Player
 {
 public:
-
-	float x, y;
-	float width, height;
+	int width = playerWidth;
+	int height = playerHeight;
+	int x = screenWidth - width - 10;
+	int y = screenHeight / 2 - height / 2;
 	int speed;
 
 	static Player* GetInstance()

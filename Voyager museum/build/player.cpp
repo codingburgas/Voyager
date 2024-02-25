@@ -2,30 +2,31 @@
 #include "manager.h"
 
 Player player;
-
+Rectangle character = { playerWidth, playerHeight, 50, 50 };
 
 void Player::DrawPlayer()
 {
-	player.width = 40;
-	player.height = 100;
-	player.x = screenWidth - player.width - 10;
-	player.y = screenHeight / 2 - player.height / 2;
-	player.speed = 8;
+	int width = playerWidth;
+	int height = playerHeight;
+	int x = screenWidth - width - 10;
+	int y = screenHeight / 2 - height / 2;
 
-	DrawRectangle(player.x, player.y, player.width, player.height, RED);
+	DrawRectangle(character.x, character.y, character.width, character.height, RED);
+
+	
 
 
 }
 
 void Player::PlayerControls()
 {
-	if (IsKeyDown(KEY_UP))
+	if (IsKeyDown(KEY_LEFT))
 	{
-		y = y - speed;
+		character.x = character.x - 10;
 	}
 
-	if (IsKeyDown(KEY_DOWN))
+	else if (IsKeyDown(KEY_RIGHT))
 	{
-		y = y + speed;
+		character.x = character.x + 10;
 	}
 }

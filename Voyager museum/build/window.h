@@ -16,3 +16,7 @@
 //Define control menu back button
 #define controlBackButtonLength 200
 #define controlBackButtonHeight 100
+
+//Define character proportions
+#define playerWidth 50
+#define playerHeight 550

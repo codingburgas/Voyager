@@ -5,7 +5,7 @@ static Player player;
 
 void ManageGameScreen() {
 
-	while (!WindowShouldClose()) {
+	
 
 		ClearBackground(BLACK);
 
@@ -14,6 +14,6 @@ void ManageGameScreen() {
 		player.DrawPlayer();
 		player.PlayerControls();
 
-	}
+	
 
 }
