@@ -1,5 +1,6 @@
 #include "manager.h"
 #include "scenemanager.h"
+#include "gamescreen.h"
 
 static Button button;
 extern Texture2D menuScreen;
@@ -76,7 +77,9 @@ void SceneManager()
 	else if (start)
 	{
 
-		//gamescreen
+		ClearBackground(BLACK);
+
+		ManageGameScreen();
 
 	}
 
