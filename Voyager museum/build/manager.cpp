@@ -1,7 +1,7 @@
 #include "window.h"
 #include "manager.h"
 
-
+Texture2D controlScreen;
 Texture2D charaStill;
 Texture2D charaWalkR1;
 Texture2D charaWalkR2;
@@ -23,6 +23,7 @@ void textureRenderer()
     exhibitSec1 = LoadTexture("resources/exhibitSec1.png");
     exhibitSec2 = LoadTexture("resources/exhibitSec2.png");
     rocketRoom = LoadTexture("resources/rocketRoom.png");
+    controlScreen = LoadTexture("resources/controls.png");
 
 }
 void ManageWindow()

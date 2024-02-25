@@ -70,5 +70,8 @@
     <Image Include="..\resources\rocketRoom.png">
       <Filter>Resources</Filter>
     </Image>
+    <Image Include="..\resources\controls.png">
+      <Filter>Resources</Filter>
+    </Image>
   </ItemGroup>
 </Project>

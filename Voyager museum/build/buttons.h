@@ -5,6 +5,7 @@
 class Button
 {
 public:
+
 	static Button* GetInstance()
 	{
 		if (instance == nullptr)
