@@ -1,1 +1,19 @@
-﻿  raylib.vcxproj -> C:\Users\kaloy\source\repos\dev\voyager\Voyager museum\bin\Debug\raylib.lib
+﻿  raudio.c
+C:\Users\kaloy\source\repos\voyager\Voyager museum\raylib-master\src\external\jar_xm.h(242,1): warning C4005: 'DEBUG': macro redefinition
+  rcore.c
+  (compiling source file '../raylib-master/src/raudio.c')
+  C:\Users\kaloy\source\repos\voyager\Voyager museum\raylib-master\src\external\jar_xm.h(242,1):
+  'DEBUG' previously declared on the command line
+  
+C:\Users\kaloy\source\repos\voyager\Voyager museum\raylib-master\src\external\rprand.h(205,27): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '../raylib-master/src/rcore.c')
+  
+  rglfw.c
+  rmodels.c
+C:\Users\kaloy\source\repos\voyager\Voyager museum\raylib-master\src\rmodels.c(5371,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  rshapes.c
+  rtext.c
+  rtextures.c
+  utils.c
+  Generating Code...
+  raylib.vcxproj -> C:\Users\kaloy\source\repos\voyager\Voyager museum\bin\Debug\raylib.lib
