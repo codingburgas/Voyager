@@ -2,25 +2,25 @@
 #include "scenemanager.h"
 
 static Button button;
+extern Texture2D menuScreen;
 
 void SceneManager()
 {
 
 	if (menu)
 	{
-
 		ClearBackground(BLACK);
-		DrawText("Voyager", screenWidth / 2 - MeasureText("Voyager", 40) / 2, screenHeight / 5 - 40, 40, WHITE);
+		DrawTexture(menuScreen, 0, 0, WHITE);
 
 
 		Button::GetInstance()->drawButton(button.menuButtons[0]);
-		DrawText("Start", screenWidth / 2 - MeasureText("Start", 30) / 2, 310, 30, menuTextColor);
+		DrawText("Start", screenWidth / 2 - MeasureText("Start", 30) / 2, 488, 30, menuTextColor);
 
 		Button::GetInstance()->drawButton(button.menuButtons[1]);
-		DrawText("Controls", screenWidth / 2 - MeasureText("Controls", 30) / 2, 445, 30, menuTextColor);
+		DrawText("Controls", screenWidth / 2 - MeasureText("Controls", 30) / 2, 620, 30, menuTextColor);
 
 		Button::GetInstance()->drawButton(button.menuButtons[2]);
-		DrawText("Exit", screenWidth / 2 - MeasureText("Exit", 30) / 2, 575, 30, menuTextColor);
+		DrawText("Exit", screenWidth / 2 - MeasureText("Exit", 30) / 2, 753, 30, menuTextColor);
 
 		if (Button::GetInstance()->isClicked(button.menuButtons[0]))
 		{

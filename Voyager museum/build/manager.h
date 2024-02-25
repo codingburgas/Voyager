@@ -1,7 +1,7 @@
 #pragma once
+
 #include "raylib.h"
 #include "buttons.h"
-
 
 void ManageWindow();
 void Update();

@@ -3,6 +3,7 @@
 
 Player player;
 
+
 void Player::DrawPlayer()
 {
 	player.width = 40;
