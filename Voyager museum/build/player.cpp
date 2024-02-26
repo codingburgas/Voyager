@@ -27,7 +27,7 @@ void Player::PlayerControls()
 {
     Rectangle frameRect;
 
-    if (IsKeyDown(KEY_LEFT) && x >= 100)    // Restricts player from noclipping out of the screen
+    if (IsKeyDown(KEY_LEFT) && x >= 50)    // Restricts player from noclipping out of the screen
     {
         timer += GetFrameTime();
         playerPosition.x -= 10;
@@ -40,7 +40,7 @@ void Player::PlayerControls()
         DrawTextureRec(charaWalkL, frameRect, playerPosition, WHITE);
         leftStare = true;   // Used to determine character idle stance based on previous movement
     }
-    else if (IsKeyDown(KEY_RIGHT)  && x <= startingLineX)
+    else if (IsKeyDown(KEY_RIGHT)  && x <= doorX)
     {
         timer += GetFrameTime();
         playerPosition.x += 10;

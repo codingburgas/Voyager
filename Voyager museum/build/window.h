@@ -21,10 +21,5 @@
 #define playerWidth 50
 #define playerHeight 550
 
-//Define door line start position
-#define startingLineX screenWidth - 50
-#define startingLineY screenHeight / 2 - playerHeight / 2
-
-//Define door line end position
-#define endLineX screenWidth
-#define endLineY screenHeight / 1.2
+//Define door position
+#define doorX screenWidth - 50

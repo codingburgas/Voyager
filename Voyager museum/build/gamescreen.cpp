@@ -26,7 +26,7 @@ void ManageGameScreen()
 
 		DrawTexture(receptDesk, 1101, 697, WHITE);
 
-		if(player.x == startingLineX)
+		if(player.x == doorX)
 		{
 
 				scene1 = false;
@@ -35,7 +35,6 @@ void ManageGameScreen()
 				
 			
 		}
-
 
 	}
 
