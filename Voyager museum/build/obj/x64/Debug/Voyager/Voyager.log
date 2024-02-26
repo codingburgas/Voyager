@@ -1,6 +1,1 @@
-﻿  player.cpp
-E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\Voyager museum\build\player.cpp(22,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\Voyager museum\build\player.cpp(23,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-  Voyager.vcxproj -> E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\Voyager museum\bin\Debug\Voyager.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
+﻿  Voyager.vcxproj -> C:\Users\kaloy\source\repos\voyager\Voyager museum\bin\Debug\Voyager.exe

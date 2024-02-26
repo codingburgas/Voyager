@@ -9,13 +9,14 @@ static Player player;
 extern Texture2D museum;
 extern Texture2D receptDesk;
 extern Texture2D flagRoom;
+extern Vector2 playerPosition;
 extern float x;
 
-void ManageGameScreen() 
+void ManageGameScreen()
 {
 
 
-	if(scene1)
+	if (scene1)
 	{
 
 		ClearBackground(BLACK);
@@ -26,30 +27,37 @@ void ManageGameScreen()
 
 		DrawTexture(receptDesk, 1101, 697, WHITE);
 
-		if(player.x == doorX)
+		if (player.x == doorX)
 		{
 
-				scene1 = false;
-				scene2 = true;
+			scene1 = false;
+			scene2 = true;
+			playerPosition.x = 100;
 
-				
-			
 		}
+
 
 	}
 
-	else if(scene2)
+	else if (scene2)
 	{
 
 		ClearBackground(BLACK);
 		DrawTexture(flagRoom, 0, 0, WHITE);
-
 		player.DrawPlayer();	// Adds player and enables player controls
 		player.PlayerControls();
+		if (player.x == 50)
+		{
+
+			scene1 = true;
+			scene2 = false;
+			playerPosition.x = screenWidth - 100;
+
+		}
 
 	}
 
-	else if(scene3)
+	else if (scene3)
 	{
 
 		ClearBackground(BLACK);
