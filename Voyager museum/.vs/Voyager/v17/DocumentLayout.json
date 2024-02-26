@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{622D81EB-CE0C-0087-D724-8B5D438366E8}|build\\Voyager.vcxproj|C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{622D81EB-CE0C-0087-D724-8B5D438366E8}|build\\Voyager.vcxproj|solutionrelative:build\\manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{622D81EB-CE0C-0087-D724-8B5D438366E8}|build\\Voyager.vcxproj|C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\scenemanager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{622D81EB-CE0C-0087-D724-8B5D438366E8}|build\\Voyager.vcxproj|solutionrelative:build\\scenemanager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{622D81EB-CE0C-0087-D724-8B5D438366E8}|build\\Voyager.vcxproj|C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\scenemanager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{622D81EB-CE0C-0087-D724-8B5D438366E8}|build\\Voyager.vcxproj|solutionrelative:build\\scenemanager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{622D81EB-CE0C-0087-D724-8B5D438366E8}|build\\Voyager.vcxproj|C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{622D81EB-CE0C-0087-D724-8B5D438366E8}|build\\Voyager.vcxproj|solutionrelative:build\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{622D81EB-CE0C-0087-D724-8B5D438366E8}|build\\Voyager.vcxproj|C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\gamescreen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{622D81EB-CE0C-0087-D724-8B5D438366E8}|build\\Voyager.vcxproj|solutionrelative:build\\gamescreen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{622D81EB-CE0C-0087-D724-8B5D438366E8}|build\\Voyager.vcxproj|C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\buttons.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{622D81EB-CE0C-0087-D724-8B5D438366E8}|build\\Voyager.vcxproj|solutionrelative:build\\buttons.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{622D81EB-CE0C-0087-D724-8B5D438366E8}|build\\Voyager.vcxproj|C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{622D81EB-CE0C-0087-D724-8B5D438366E8}|build\\Voyager.vcxproj|solutionrelative:build\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{622D81EB-CE0C-0087-D724-8B5D438366E8}|build\\Voyager.vcxproj|C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\gamescreenmanager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{622D81EB-CE0C-0087-D724-8B5D438366E8}|build\\Voyager.vcxproj|solutionrelative:build\\gamescreenmanager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{622D81EB-CE0C-0087-D724-8B5D438366E8}|build\\Voyager.vcxproj|C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{622D81EB-CE0C-0087-D724-8B5D438366E8}|build\\Voyager.vcxproj|solutionrelative:build\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{622D81EB-CE0C-0087-D724-8B5D438366E8}|build\\Voyager.vcxproj|C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{622D81EB-CE0C-0087-D724-8B5D438366E8}|build\\Voyager.vcxproj|solutionrelative:build\\manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{622D81EB-CE0C-0087-D724-8B5D438366E8}|build\\Voyager.vcxproj|C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{622D81EB-CE0C-0087-D724-8B5D438366E8}|build\\Voyager.vcxproj|solutionrelative:build\\window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "buttons.cpp",
+              "DocumentMoniker": "C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\buttons.cpp",
+              "RelativeDocumentMoniker": "build\\buttons.cpp",
+              "ToolTip": "C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\buttons.cpp",
+              "RelativeToolTip": "build\\buttons.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-26T20:29:16.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "gamescreen.cpp",
+              "DocumentMoniker": "C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\gamescreen.cpp",
+              "RelativeDocumentMoniker": "build\\gamescreen.cpp",
+              "ToolTip": "C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\gamescreen.cpp",
+              "RelativeToolTip": "build\\gamescreen.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-26T18:44:18.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\main.cpp",
+              "RelativeDocumentMoniker": "build\\main.cpp",
+              "ToolTip": "C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\main.cpp",
+              "RelativeToolTip": "build\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-26T18:44:03.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "gamescreenmanager.h",
+              "DocumentMoniker": "C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\gamescreenmanager.h",
+              "RelativeDocumentMoniker": "build\\gamescreenmanager.h",
+              "ToolTip": "C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\gamescreenmanager.h",
+              "RelativeToolTip": "build\\gamescreenmanager.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-26T18:43:19.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "manager.h",
+              "DocumentMoniker": "C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\manager.h",
+              "RelativeDocumentMoniker": "build\\manager.h",
+              "ToolTip": "C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\manager.h",
+              "RelativeToolTip": "build\\manager.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-26T18:43:18.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "player.h",
+              "DocumentMoniker": "C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\player.h",
+              "RelativeDocumentMoniker": "build\\player.h",
+              "ToolTip": "C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\player.h",
+              "RelativeToolTip": "build\\player.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-26T18:43:17.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "scenemanager.h",
+              "DocumentMoniker": "C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\scenemanager.h",
+              "RelativeDocumentMoniker": "build\\scenemanager.h",
+              "ToolTip": "C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\scenemanager.h",
+              "RelativeToolTip": "build\\scenemanager.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-26T18:43:15.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "window.h",
+              "DocumentMoniker": "C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\window.h",
+              "RelativeDocumentMoniker": "build\\window.h",
+              "ToolTip": "C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\window.h",
+              "RelativeToolTip": "build\\window.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-26T18:43:13.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "scenemanager.cpp",
+              "DocumentMoniker": "C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\scenemanager.cpp",
+              "RelativeDocumentMoniker": "build\\scenemanager.cpp",
+              "ToolTip": "C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\scenemanager.cpp",
+              "RelativeToolTip": "build\\scenemanager.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-26T18:43:06.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "player.cpp",
+              "DocumentMoniker": "C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\player.cpp",
+              "RelativeDocumentMoniker": "build\\player.cpp",
+              "ToolTip": "C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\player.cpp",
+              "RelativeToolTip": "build\\player.cpp",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-26T18:43:01.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "manager.cpp",
+              "DocumentMoniker": "C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\manager.cpp",
+              "RelativeDocumentMoniker": "build\\manager.cpp",
+              "ToolTip": "C:\\Users\\kaloy\\source\\repos\\asdf\\voyager\\Voyager museum\\build\\manager.cpp",
+              "RelativeToolTip": "build\\manager.cpp",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAuwAUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-26T18:43:00.632Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
