@@ -9,7 +9,9 @@ static Player player;
 extern Texture2D museum;
 extern Texture2D receptDesk;
 extern Texture2D flagRoom;
+extern Texture2D sputnikRoom;
 extern Vector2 playerPosition;
+extern Texture2D astronautRoom;
 extern float x;
 
 void ManageGameScreen()
@@ -41,29 +43,59 @@ void ManageGameScreen()
 
 	else if (scene2)
 	{
-
 		ClearBackground(BLACK);
 		DrawTexture(flagRoom, 0, 0, WHITE);
-		player.DrawPlayer();	// Adds player and enables player controls
+		player.DrawPlayer();    // Adds player and enables player controls
 		player.PlayerControls();
+
 		if (player.x == 50)
 		{
-
 			scene1 = true;
 			scene2 = false;
 			playerPosition.x = screenWidth - 100;
-
 		}
-
+		else if (player.x == doorX) // Changed else to else if
+		{
+			scene3 = true;
+			scene2 = false;
+			playerPosition.x = 100;
+		}
 	}
 
 	else if (scene3)
 	{
 
 		ClearBackground(BLACK);
-
+		DrawTexture(sputnikRoom, 0, 0, WHITE);
+		// DrawTexture(, 0, 0, WHITE);
+		player.DrawPlayer();
+		player.PlayerControls();
+		if (player.x == 50)
+		{
+			scene2 = true;
+			scene3 = false;
+			playerPosition.x = screenWidth - 100;
+		}
+		else if (player.x == doorX) // Changed else to else if
+		{
+			scene3 = false;
+			scene4 = true;
+			playerPosition.x = 100;
+		}
 
 
 	}
-
+	else if (scene4)
+	{
+		ClearBackground(BLACK);
+		DrawTexture(astronautRoom, 0, 0, WHITE);
+		player.DrawPlayer();
+		player.PlayerControls();
+		if (player.x == 50)
+		{
+		scene3 = true;
+		scene4 = false;
+		playerPosition.x = screenWidth - 100;
+		}
+	}
 }
