@@ -5,7 +5,6 @@
 static Button button;
 extern Texture2D menuScreen;
 extern Texture2D controlScreen;
-extern Texture2D controlsmenu2;
 
 void SceneManager()
 {
@@ -61,7 +60,7 @@ void SceneManager()
 
 		ClearBackground(BLACK);
 
-		DrawTexture(controlsmenu2, 0, 0, WHITE);
+		DrawTexture(controlScreen, 0, 0, WHITE);
 		Button::GetInstance()->drawButton(button.controllsBackButton);
 
 		DrawText("Back", 40 + MeasureText("Back", 30), 40 + menuButtonHeight / 2, 30, menuTextColor);

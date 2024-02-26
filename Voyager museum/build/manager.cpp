@@ -9,21 +9,22 @@ Texture2D controlScreen;
 Texture2D charaWalkR;
 Texture2D charaWalkL;
 Texture2D receptDesk;
-Texture2D controlsmenu2;
 Texture2D flagRoom;
+Texture2D sputnikRoom;
+Texture2D astronautRoom;
 
 void textureRenderer() // Renderer loads necessary textures
 {
-
+    astronautRoom = LoadTexture("resources/astronautRoom.png");
+    sputnikRoom = LoadTexture("resources/sputnikRoom.png");
     charaStillInv = LoadTexture("resources/charaStillInv.png");
     charaStill = LoadTexture("resources/charaStill.png");
     menuScreen = LoadTexture("resources/menuScreen.png");
-    museum = LoadTexture("resources/museum.png");
-    controlScreen = LoadTexture("resources/controls.png");
+    museum = LoadTexture("resources/museumLobby.png");
+    controlScreen = LoadTexture("resources/controlsMenu.png");
     charaWalkR = LoadTexture("resources/charaWalkR.png");
     charaWalkL = LoadTexture("resources/charaWalkL.png");
     receptDesk = LoadTexture("resources/receptdesk.png");
-    controlsmenu2 = LoadTexture("resources/controlsmenu2.png");
     flagRoom = LoadTexture("resources/flagRoom.png");
 }
 void ManageWindow() // Sets basic window parameters
