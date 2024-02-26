@@ -1,1 +1,5 @@
-﻿  Voyager.vcxproj -> C:\Users\kaloy\source\repos\voyager\Voyager museum\bin\Debug\Voyager.exe
+﻿  gamescreen.cpp
+C:\Users\yuant\Documents\vcbvc\Voyager\Voyager museum\build\gamescreen.cpp(27,47): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\yuant\Documents\vcbvc\Voyager\Voyager museum\build\gamescreen.cpp(32,11): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\yuant\Documents\vcbvc\Voyager\Voyager museum\build\gamescreen.cpp(33,11): warning C4553: '==': result of expression not used; did you intend '='?
+  Voyager.vcxproj -> C:\Users\yuant\Documents\vcbvc\Voyager\Voyager museum\bin\Debug\Voyager.exe

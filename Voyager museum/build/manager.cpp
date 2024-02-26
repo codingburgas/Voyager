@@ -9,6 +9,8 @@ Texture2D controlScreen;
 Texture2D charaWalkR;
 Texture2D charaWalkL;
 Texture2D receptDesk;
+Texture2D controlsmenu2;
+Texture2D flagRoom;
 
 void textureRenderer() // Renderer loads necessary textures
 {
@@ -21,7 +23,8 @@ void textureRenderer() // Renderer loads necessary textures
     charaWalkR = LoadTexture("resources/charaWalkR.png");
     charaWalkL = LoadTexture("resources/charaWalkL.png");
     receptDesk = LoadTexture("resources/receptdesk.png");
-
+    controlsmenu2 = LoadTexture("resources/controlsmenu2.png");
+    flagRoom = LoadTexture("resources/flagRoom.png");
 }
 void ManageWindow() // Sets basic window parameters
 {

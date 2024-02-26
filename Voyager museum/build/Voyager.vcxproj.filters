@@ -47,6 +47,12 @@
     <ClInclude Include="scenemanager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="gamescreenmanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gamescreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\resources\charaStill.png">
@@ -62,6 +68,12 @@
       <Filter>Resources</Filter>
     </Image>
     <Image Include="..\resources\museum.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\resources\controlsmenu2.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\resources\flagRoom.png">
       <Filter>Resources</Filter>
     </Image>
   </ItemGroup>

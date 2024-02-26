@@ -27,7 +27,7 @@ void Player::PlayerControls()
 {
     Rectangle frameRect;
 
-    if (IsKeyDown(KEY_LEFT) && x >= 200)    // Restricts player from noclipping out of reality
+    if (IsKeyDown(KEY_LEFT) && x >= 200)    // Restricts player from noclipping out of the screen
     {
         timer += GetFrameTime();
         playerPosition.x -= 10;
