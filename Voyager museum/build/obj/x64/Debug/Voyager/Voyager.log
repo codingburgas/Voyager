@@ -1,5 +1,6 @@
-﻿  gamescreen.cpp
-C:\Users\yuant\Documents\vcbvc\Voyager\Voyager museum\build\gamescreen.cpp(27,47): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\yuant\Documents\vcbvc\Voyager\Voyager museum\build\gamescreen.cpp(32,11): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\yuant\Documents\vcbvc\Voyager\Voyager museum\build\gamescreen.cpp(33,11): warning C4553: '==': result of expression not used; did you intend '='?
-  Voyager.vcxproj -> C:\Users\yuant\Documents\vcbvc\Voyager\Voyager museum\bin\Debug\Voyager.exe
+﻿  player.cpp
+E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\Voyager museum\build\player.cpp(22,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\Voyager museum\build\player.cpp(23,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Voyager.vcxproj -> E:\_DOCUMENTs\Cvetan\Documents\School\Voyager\Voyager museum\bin\Debug\Voyager.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

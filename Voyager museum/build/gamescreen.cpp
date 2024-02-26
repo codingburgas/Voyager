@@ -13,6 +13,8 @@ extern float x;
 
 void ManageGameScreen() 
 {
+
+
 	if(scene1)
 	{
 
@@ -24,14 +26,14 @@ void ManageGameScreen()
 
 		DrawTexture(receptDesk, 1101, 697, WHITE);
 
-		DrawLine(endLineX, startingLineY, endLineX, endLineY,  RED);
-
-		if()
+		if(player.x == startingLineX)
 		{
 
-			scene1 == false;
-			scene2 == true;
+				scene1 = false;
+				scene2 = true;
 
+				
+			
 		}
 
 
