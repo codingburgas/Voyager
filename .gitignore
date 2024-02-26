@@ -4,8 +4,6 @@ _bin
 .vs
 /bin
 /build
-bin/*.exe
-bin/*.out
-bin/*.dll
-obj/*.o
+/bin
+/obj
 .vscode
