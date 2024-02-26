@@ -5,15 +5,18 @@ float x, y;
 bool leftStare = false;
 int frame = 0;
 float timer = 0.0f;
+float charaGuideLine = 0;
 
 Player player;
 extern Texture2D charaWalkR;
 extern Texture2D charaWalkL;
 extern Texture2D charaStill;
 extern Texture2D charaStillInv;
+extern bool scene1;
+extern bool scene2;
+extern bool scene3;
 
 Vector2 playerPosition = { 200.0f, 700.0f };
-
 
 void Player::DrawPlayer()
 {
@@ -25,9 +28,16 @@ void Player::DrawPlayer()
 
 void Player::PlayerControls()
 {
+    if (scene1) {
+        charaGuideLine = 200;
+    }
+    else if (scene2) {
+        charaGuideLine = 0;
+    }
+
     Rectangle frameRect;
 
-    if (IsKeyDown(KEY_LEFT) && x >= 50)    // Restricts player from noclipping out of the screen
+    if ((IsKeyDown(KEY_LEFT) || IsKeyDown(KEY_A)) && x >= charaGuideLine)    // Restricts player from noclipping out of the screen
     {
         timer += GetFrameTime();
         playerPosition.x -= 10;
@@ -40,7 +50,7 @@ void Player::PlayerControls()
         DrawTextureRec(charaWalkL, frameRect, playerPosition, WHITE);
         leftStare = true;   // Used to determine character idle stance based on previous movement
     }
-    else if (IsKeyDown(KEY_RIGHT)  && x <= doorX)
+    else if ((IsKeyDown(KEY_RIGHT) || IsKeyDown(KEY_D)))
     {
         timer += GetFrameTime();
         playerPosition.x += 10;
@@ -53,16 +63,16 @@ void Player::PlayerControls()
         DrawTextureRec(charaWalkR, frameRect, playerPosition, WHITE);
         leftStare = false;
     }
-    else if (!IsKeyDown(KEY_RIGHT) && !IsKeyDown(KEY_LEFT) || x < 200) // Draws left/right facing texture which depends on whether leftStare is toggled
+    else
     {
-        if (leftStare == true)
+
+        if (leftStare)
         {
             DrawTexture(charaStillInv, x, y, WHITE);
         }
-        else if (leftStare == false)
+        else
         {
             DrawTexture(charaStill, x, y, WHITE);
         }
     }
-
 }
