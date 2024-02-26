@@ -11,11 +11,11 @@ void SceneManager()
 
 	if (menu)
 	{
-		ClearBackground(BLACK);
+		ClearBackground(BLACK);		// Sets menu background
 		DrawTexture(menuScreen, 0, 0, WHITE);
 
 
-		Button::GetInstance()->drawButton(button.menuButtons[0]);
+		Button::GetInstance()->drawButton(button.menuButtons[0]);		// Draws menu buttons
 		DrawText("Start", screenWidth / 2 - MeasureText("Start", 30) / 2, 488, 30, menuTextColor);
 
 		Button::GetInstance()->drawButton(button.menuButtons[1]);
@@ -24,7 +24,7 @@ void SceneManager()
 		Button::GetInstance()->drawButton(button.menuButtons[2]);
 		DrawText("Exit", screenWidth / 2 - MeasureText("Exit", 30) / 2, 753, 30, menuTextColor);
 
-		if (Button::GetInstance()->isClicked(button.menuButtons[0]))
+		if (Button::GetInstance()->isClicked(button.menuButtons[0]))	// Buttons toggle menu items/close window
 		{
 
 			menu = false;
@@ -55,7 +55,7 @@ void SceneManager()
 	}
 
 
-	else if (controls)
+	else if (controls)	// Adds back button
 	{
 
 		ClearBackground(BLACK);
@@ -76,7 +76,7 @@ void SceneManager()
 	}
 
 
-	else if (start)
+	else if (start)		// Opens game scene
 	{
 
 		ClearBackground(BLACK);

@@ -286,13 +286,10 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\resources\charaStill.png" />
-    <Image Include="..\resources\charaWalkR1.png" />
-    <Image Include="..\resources\charaWalkR2.png" />
+    <Image Include="..\resources\charaStillInv.png" />
     <Image Include="..\resources\controls.png" />
-    <Image Include="..\resources\exhibitSec2.png" />
     <Image Include="..\resources\menuScreen.png" />
-    <Image Include="..\resources\museumLobby.png" />
-    <Image Include="..\resources\rocketRoom.png" />
+    <Image Include="..\resources\museum.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

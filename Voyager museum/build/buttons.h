@@ -23,7 +23,7 @@ public:
 		{screenWidth / 2 - menuButtonLength / 2, screenHeight / 1.5 - (screenHeight / 2) / 4, menuButtonLength, menuButtonHeight},
 		{screenWidth / 2 - menuButtonLength / 2, screenHeight / 1.5 - (screenHeight / 2) / 110, menuButtonLength, menuButtonHeight}
 
-	};
+	};	// Sets button size and position
 
 	Rectangle controllsBackButton = { 50, 50 , menuButtonLength, menuButtonHeight };
 

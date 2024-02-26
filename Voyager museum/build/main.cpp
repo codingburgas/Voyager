@@ -2,7 +2,6 @@
 
 int main()
 {
-
 	ManageWindow();
 	while (!WindowShouldClose()) {
 

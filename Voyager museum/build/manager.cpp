@@ -2,35 +2,33 @@
 #include "manager.h"
 
 Texture2D charaStill;
-Texture2D charaWalkR1;
-Texture2D charaWalkR2;
+Texture2D charaStillInv;
 Texture2D menuScreen;
-Texture2D museumlobby;
-Texture2D exhibitSec1;
-Texture2D exhibitSec2;
-Texture2D rocketRoom;
+Texture2D museum;
 Texture2D controlScreen;
+Texture2D charaWalkR;
+Texture2D charaWalkL;
+Texture2D receptDesk;
 
-void textureRenderer() 
-
+void textureRenderer() // Renderer loads necessary textures
 {
 
+    charaStillInv = LoadTexture("resources/charaStillInv.png");
     charaStill = LoadTexture("resources/charaStill.png");
-    charaWalkR1 = LoadTexture("resources/charaWalkR1.png");
-    charaWalkR2 = LoadTexture("resources/charaWalkR2.png");
     menuScreen = LoadTexture("resources/menuScreen.png");
-    museumlobby = LoadTexture("resources/museumlobby.png");
-    exhibitSec1 = LoadTexture("resources/exhibitSec1.png");
-    exhibitSec2 = LoadTexture("resources/exhibitSec2.png");
-    rocketRoom = LoadTexture("resources/rocketRoom.png");
+    museum = LoadTexture("resources/museum.png");
     controlScreen = LoadTexture("resources/controls.png");
+    charaWalkR = LoadTexture("resources/charaWalkR.png");
+    charaWalkL = LoadTexture("resources/charaWalkL.png");
+    receptDesk = LoadTexture("resources/receptdesk.png");
 
 }
-void ManageWindow()
+void ManageWindow() // Sets basic window parameters
 {
 
     InitWindow(screenWidth, screenHeight, screenTitle);
     SetTargetFPS(60);
+    ToggleFullscreen();
     textureRenderer();
 }
 

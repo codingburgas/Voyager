@@ -52,25 +52,16 @@
     <Image Include="..\resources\charaStill.png">
       <Filter>Resources</Filter>
     </Image>
-    <Image Include="..\resources\charaWalkR1.png">
-      <Filter>Resources</Filter>
-    </Image>
-    <Image Include="..\resources\charaWalkR2.png">
-      <Filter>Resources</Filter>
-    </Image>
-    <Image Include="..\resources\exhibitSec2.png">
-      <Filter>Resources</Filter>
-    </Image>
     <Image Include="..\resources\menuScreen.png">
       <Filter>Resources</Filter>
     </Image>
-    <Image Include="..\resources\museumLobby.png">
-      <Filter>Resources</Filter>
-    </Image>
-    <Image Include="..\resources\rocketRoom.png">
-      <Filter>Resources</Filter>
-    </Image>
     <Image Include="..\resources\controls.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\resources\charaStillInv.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\resources\museum.png">
       <Filter>Resources</Filter>
     </Image>
   </ItemGroup>
