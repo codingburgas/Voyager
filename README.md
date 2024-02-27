@@ -40,8 +40,8 @@
 
 ## <img src= "Voyager museum/resources/word_logo.png" alt="document icon"> Documentation
 
-#### <img src= "Voyager museum/resources/word_logo.png" alt="word logo"> [Documentation](documentation/voyager_documentation)
-#### <img src= "Voyager museum/resources/powerpoint_logo.png" alt="powerpoint logo"> [Presentation](documentation/voyager_presentation)
+#### <img src= "Voyager museum/resources/word_logo.png" alt="word logo"> [Documentation]([documentation/voyager_documentation](https://codingburgas-my.sharepoint.com/:w:/g/personal/tpzhekov22_codingburgas_bg/EQ8DI3eFre5BjvdsxzXN_iYBEdc6cOKt7o-a5VFYFqP7UA?e=RHYP8g))
+#### <img src= "Voyager museum/resources/powerpoint_logo.png" alt="powerpoint logo"> [Presentation]([documentation/voyager_presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/tpzhekov22_codingburgas_bg/Ef4AFkIStftHjTdGixtbUloBT4WkRqr4ryOmk96E03Jaig?e=jUhkJg))
 
 ## <img src= "Voyager museum/resources/laptop_icon.png" alt="laptop icon"> Used Technologies
 
