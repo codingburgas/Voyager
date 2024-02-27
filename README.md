@@ -40,8 +40,8 @@
 
 ## <img src= "Voyager museum/resources/word_logo.png" alt="document icon"> Documentation
 
-#### <img src= "Voyager museum/resources/word_logo.png" alt="word logo"> [Documentation](Voyager/documentation/voyager_documentation.docx)
-#### <img src= "Voyager museum/resources/powerpoint_logo.png" alt="powerpoint logo"> [Presentation](Voyager/documentation/voyager_presentation.pptx)
+#### <img src= "Voyager museum/resources/word_logo.png" alt="word logo"> [Documentation](documentation/voyager_documentation.docx)
+#### <img src= "Voyager museum/resources/powerpoint_logo.png" alt="powerpoint logo"> [Presentation](documentation/voyager_presentation.pptx)
 
 ## <img src= "Voyager museum/resources/laptop_icon.png" alt="laptop icon"> Used Technologies
 
