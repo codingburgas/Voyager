@@ -54,7 +54,7 @@ void ManageGameScreen()
 			scene2 = false;
 			playerPosition.x = screenWidth - 100;
 		}
-		else if (player.x == doorX) // Changed else to else if
+		else if (player.x == doorX)
 		{
 			scene3 = true;
 			scene2 = false;
@@ -67,7 +67,6 @@ void ManageGameScreen()
 
 		ClearBackground(BLACK);
 		DrawTexture(sputnikRoom, 0, 0, WHITE);
-		// DrawTexture(, 0, 0, WHITE);
 		player.DrawPlayer();
 		player.PlayerControls();
 		if (player.x == 50)
@@ -76,7 +75,7 @@ void ManageGameScreen()
 			scene3 = false;
 			playerPosition.x = screenWidth - 100;
 		}
-		else if (player.x == doorX) // Changed else to else if
+		else if (player.x == doorX)
 		{
 			scene3 = false;
 			scene4 = true;

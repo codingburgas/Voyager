@@ -7,6 +7,7 @@ class Button
 public:
 	static Button* GetInstance()
 	{
+		// Check if the instance is not already created
 		if (instance == nullptr)
 		{
 			instance = new Button;
@@ -16,6 +17,7 @@ public:
 
 	void drawButton(Rectangle rect);
 
+	// Check if the button is clicked
 	bool isClicked(Rectangle rect);
 
 	Rectangle menuButtons[3] = {

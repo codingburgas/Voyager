@@ -1,10 +1,1 @@
-﻿  buttons.cpp
-  gamescreen.cpp
-  main.cpp
-  manager.cpp
-  player.cpp
-C:\Users\kaloy\source\repos\asdf\voyager\Voyager museum\build\player.cpp(25,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\kaloy\source\repos\asdf\voyager\Voyager museum\build\player.cpp(26,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-  scenemanager.cpp
-  Generating Code...
-  Voyager.vcxproj -> C:\Users\kaloy\source\repos\asdf\voyager\Voyager museum\bin\Debug\Voyager.exe
+﻿  Voyager.vcxproj -> C:\Users\User\Desktop\Voyager\Voyager museum\bin\Debug\Voyager.exe

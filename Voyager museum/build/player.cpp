@@ -18,6 +18,7 @@ extern bool scene1;
 
 Vector2 playerPosition = { 200.0f, 700.0f };
 
+// Function to set up player position
 void Player::DrawPlayer()
 {
     int width = playerWidth;
@@ -26,6 +27,7 @@ void Player::DrawPlayer()
     y = playerPosition.y;
 }
 
+// Function to handle player controls
 void Player::PlayerControls()
 {
     if (scene1) {
@@ -50,6 +52,8 @@ void Player::PlayerControls()
         DrawTextureRec(charaWalkL, frameRect, playerPosition, WHITE);
         leftStare = true;   // Used to determine character idle stance based on previous movement
     }
+
+    // If arrow key is pressed
     else if ((IsKeyDown(KEY_RIGHT) || IsKeyDown(KEY_D)) && playerPosition.x < 1900)
     {
         timer += GetFrameTime();
@@ -63,6 +67,8 @@ void Player::PlayerControls()
         DrawTextureRec(charaWalkR, frameRect, playerPosition, WHITE);
         leftStare = false;
     }
+
+    // If no movement keys are pressed
     else
     {
 

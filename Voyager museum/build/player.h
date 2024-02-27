@@ -5,6 +5,7 @@
 class Player
 {
 public:
+	// Public variables representing initial position
 	int width = playerWidth;
 	int height = playerHeight;
 	int x = screenWidth - width - 10;
@@ -12,6 +13,7 @@ public:
 
 	static Player* GetInstance()
 	{
+		// Check if the instance is not already created
 		if (instance == nullptr)
 		{
 			instance = new Player;
@@ -19,8 +21,8 @@ public:
 		return instance;
 	}
 
+	// Draw the player and handling player controls
 	void DrawPlayer();
-
 	void PlayerControls();
 
 

@@ -1,3 +1,3 @@
 #pragma once
 
-void ManageGameScreen();
+void ManageGameScreen(); // Function declaration
