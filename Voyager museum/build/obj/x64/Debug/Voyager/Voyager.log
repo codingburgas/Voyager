@@ -1,1 +1,6 @@
-﻿  Voyager.vcxproj -> C:\Users\User\Desktop\Voyager\Voyager museum\bin\Debug\Voyager.exe
+﻿  gamescreen.cpp
+  player.cpp
+C:\Users\User\Desktop\Voyager\Voyager museum\build\player.cpp(26,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Desktop\Voyager\Voyager museum\build\player.cpp(27,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  Voyager.vcxproj -> C:\Users\User\Desktop\Voyager\Voyager museum\bin\Debug\Voyager.exe
