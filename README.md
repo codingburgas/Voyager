@@ -6,7 +6,7 @@
 ## <img src= "Voyager museum/resources/trophy_icon.png" alt="trophy icon">Our Team
  
 #### Tsvetan Zhekov - Scrum Trainer
-#### Kaloyan Iliev - Designer
+#### Kaloyan Iliev - Developer
 #### Nikolai Zhelev - Developer
 #### Yuan Tomov - Developer
 
