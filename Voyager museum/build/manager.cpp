@@ -1,6 +1,7 @@
 #include "window.h"
 #include "manager.h"
 
+// Initialize variables for texture
 Texture2D charaStill;
 Texture2D charaStillInv;
 Texture2D menuScreen;

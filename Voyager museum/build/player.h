@@ -1,4 +1,5 @@
 #pragma once
+
 #include "raylib.h"
 #include "window.h"
 
@@ -24,7 +25,6 @@ public:
 	// Draw the player and handling player controls
 	void DrawPlayer();
 	void PlayerControls();
-
 
 
 private:

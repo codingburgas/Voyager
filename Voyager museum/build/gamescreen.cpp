@@ -4,7 +4,7 @@
 #include "gamescreenmanager.h"
 #include "window.h"
 
-
+// Initialize variables
 static Player player;
 extern Texture2D museum;
 extern Texture2D receptDesk;
