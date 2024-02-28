@@ -1,4 +1,4 @@
-#include "manager.h"
+
 #include "buttons.h"
 
 Button* Button::instance = nullptr;
