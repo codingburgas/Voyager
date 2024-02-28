@@ -284,6 +284,7 @@
     <ClInclude Include="gamescreen.h" />
     <ClInclude Include="manager.h" />
     <ClInclude Include="player.h" />
+    <ClInclude Include="render.h" />
     <ClInclude Include="scenemanager.h" />
     <ClInclude Include="window.h" />
   </ItemGroup>

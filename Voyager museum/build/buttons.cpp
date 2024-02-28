@@ -1,4 +1,3 @@
-
 #include "buttons.h"
 
 Button* Button::instance = nullptr;

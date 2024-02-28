@@ -1,6 +1,4 @@
-#include "manager.h"
 #include "scenemanager.h"
-#include "gamescreen.h"
 
 extern bool closeKey;
 static Button button;

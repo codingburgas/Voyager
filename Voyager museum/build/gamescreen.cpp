@@ -1,8 +1,4 @@
-#include "buttons.h"
-#include "player.h"
-#include "manager.h"
 #include "gamescreenmanager.h"
-#include "window.h"
 
 // Initialize variables
 static Player player;
