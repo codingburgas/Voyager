@@ -1,2 +1,2 @@
 #pragma once
-bool closeKey = false;
+bool closeKey = false; //Exits program if pressed
