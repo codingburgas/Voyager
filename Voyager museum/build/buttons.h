@@ -28,7 +28,7 @@ public:
 
 	};	// Sets button size and position
 
-	Rectangle controllsBackButton = { 50, 50 , menuButtonLength, menuButtonHeight };
+	Rectangle controllsBackButton = { 50, 50 , menuButtonLength, menuButtonHeight }; // Draws the back button in the controls menu
 
 private:
 	static Button* instance;

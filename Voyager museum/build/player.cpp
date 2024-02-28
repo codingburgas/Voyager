@@ -74,11 +74,11 @@ void Player::PlayerControls()
 
         if (leftStare)
         {
-            DrawTexture(charaStillInv, x, y, WHITE);
+            DrawTexture(charaStillInv, x, y, WHITE); // Draws the player going right
         }
         else
         {
-            DrawTexture(charaStill, x, y, WHITE);
+            DrawTexture(charaStill, x, y, WHITE); // Draws the player going left
         }
     }
 }
