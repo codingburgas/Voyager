@@ -27,7 +27,7 @@ void ManageGameScreen()
 		player.DrawPlayer();	// Adds player and enables player controls
 		player.PlayerControls();
 
-		DrawTexture(receptDesk, 1101, 697, WHITE);
+		DrawTexture(receptDesk, 1101, 697, WHITE); // Draws the desk in scene 1
 
 		if (player.x == doorX)
 		{
@@ -48,12 +48,14 @@ void ManageGameScreen()
 		player.DrawPlayer();    // Adds player and enables player controls
 		player.PlayerControls();
 
+		// Cehcks if player has reached the coordinates
 		if (player.x == 50)
 		{
 			scene1 = true;
 			scene2 = false;
 			playerPosition.x = screenWidth - 100;
 		}
+		// Checks if player has reached the coordinates
 		else if (player.x == doorX)
 		{
 			scene3 = true;
@@ -67,8 +69,9 @@ void ManageGameScreen()
 
 		ClearBackground(BLACK);
 		DrawTexture(sputnikRoom, 0, 0, WHITE);
-		player.DrawPlayer();
-		player.PlayerControls();
+		player.DrawPlayer(); // Draws the character
+		player.PlayerControls(); // Adds the player controls
+		// Checks if player has reached the end in scene 3
 		if (player.x == 50)
 		{
 			scene2 = true;
@@ -88,8 +91,10 @@ void ManageGameScreen()
 	{
 		ClearBackground(BLACK);
 		DrawTexture(astronautRoom, 0, 0, WHITE);
-		player.DrawPlayer();
-		player.PlayerControls();
+		player.DrawPlayer(); // Draws the character in scene 4
+		player.PlayerControls(); // Adds the player controls
+
+		// Checks if the player has reached the end of the screen
 		if (player.x == 50)
 		{
 		scene3 = true;

@@ -34,7 +34,7 @@ void SceneManager()
 		}
 
 
-		if (Button::GetInstance()->isClicked(button.menuButtons[1]))
+		if (Button::GetInstance()->isClicked(button.menuButtons[1])) // Checks if they are clicked
 		{
 
 			menu = false;
@@ -45,7 +45,7 @@ void SceneManager()
 
 
 
-		if (Button::GetInstance()->isClicked(button.menuButtons[2]))
+		if (Button::GetInstance()->isClicked(button.menuButtons[2])) // Checks if they are clicked
 		{
 
 			CloseWindow();
@@ -60,12 +60,12 @@ void SceneManager()
 
 		ClearBackground(BLACK);
 
-		DrawTexture(controlScreen, 0, 0, WHITE);
+		DrawTexture(controlScreen, 0, 0, WHITE); // Draws the controls window
 		Button::GetInstance()->drawButton(button.controllsBackButton);
 
-		DrawText("Back", 40 + MeasureText("Back", 30), 40 + menuButtonHeight / 2, 30, menuTextColor);
+		DrawText("Back", 40 + MeasureText("Back", 30), 40 + menuButtonHeight / 2, 30, menuTextColor); // Draws the back button
 
-		if (Button::GetInstance()->isClicked(button.controllsBackButton))
+		if (Button::GetInstance()->isClicked(button.controllsBackButton)) // Checks if the back button has been drawn
 		{
 
 			controls = false;
