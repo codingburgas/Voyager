@@ -53,6 +53,9 @@
     <ClInclude Include="gamescreen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="closer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\resources\charaStill.png">

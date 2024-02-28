@@ -2,6 +2,7 @@
 #include "scenemanager.h"
 #include "gamescreen.h"
 
+extern bool closeKey;
 static Button button;
 extern Texture2D menuScreen;
 extern Texture2D controlScreen;
@@ -48,7 +49,7 @@ void SceneManager()
 		if (Button::GetInstance()->isClicked(button.menuButtons[2])) // Checks if they are clicked
 		{
 
-			CloseWindow();
+			closeKey = true;
 
 		}
 
