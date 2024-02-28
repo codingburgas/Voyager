@@ -48,7 +48,7 @@ void ManageGameScreen()
 		player.DrawPlayer();    // Adds player and enables player controls
 		player.PlayerControls();
 
-		// Cehcks if player has reached the coordinates
+		// Checks if player has reached the coordinates
 		if (player.x == 50)
 		{
 			scene1 = true;
